@@ -1,0 +1,78 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  height: 35%;
+
+  border-radius: 10px;
+  background-color: white;
+ 
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+input, textarea {
+  width: 99%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 8px 4px 8px 0;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.note {
+  border: 1px solid #eee;
+  background: #f4f6f8;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.05);
+}
+
+.note h3 {
+  margin: 0 0 8px;
+}
+
+.note p {
+  margin-bottom: 10px;
+}
+
+.note button {
+  background-color: #e74c3c;
+}
+
+.note button:hover {
+  background-color: #c0392b;
+}
+
